@@ -1,0 +1,54 @@
+body{
+    max-width: 800px;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: auto;
+}
+body h1{
+    margin: auto;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    color: rgb(175, 100, 57);
+}
+
+.border{
+    border: 2px solid rgb(27, 26, 26);
+}
+button{
+    display: inline;
+    width: 150px;
+    height: 60px;
+    
+}
+.test{
+    background-color: aquamarine;
+}
+#table{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.redBackground {
+ background-color: red;   
+}
+
+.font{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
+
+#table tr td {
+    border-left: thin solid green; border-top: thin solid green; border-bottom: thin solid green;
+    border-collapse: collapse ;
+
+}
