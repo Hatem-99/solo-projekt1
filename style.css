@@ -11,6 +11,15 @@ td{
     width: 100px;
     height: 100px;
 }
+p{
+    margin-left: 20px;
+}
+table {
+    border-collapse: collapse;
+  }
+  tr {
+    border: 2px dotted rgb(146, 0, 0);
+  }
 
 a {
     color: rgb(175, 100, 57);

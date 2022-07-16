@@ -26,6 +26,7 @@ for (let i=0, t=101; i<t; i++) {
 
 
 
+
 const whichIsLonger = function(firstArray,seconedArray){
      firstArray = []
      seconedArray = []
@@ -64,12 +65,13 @@ for (let i = 0; i < tds.length; i++) {
    } 
 }}
 
-const changeHeading = function(str){
- let heading  = document.getElementsByTagName("h1")
-heading.innerText = str
-
-
+const changeHeading = function(){
+ let heading  = document.getElementsByTagName("h1")[0];
+heading.innerHTML = "change heading"
 }
+
+
+
 const newRow = function(num){
     let table = document.getElementById("table")
     let row = document.createElement("tr")
@@ -117,9 +119,6 @@ const hideShowTable = function(){
 
 const deleteTd = function(){
     let tds =document.getElementsByTagName("td")
-    
-    
-   
     
 }
 
